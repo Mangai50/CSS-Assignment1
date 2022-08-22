@@ -1,0 +1,258 @@
+/*Header section styling*/
+body{
+    margin: 0;
+}
+main{
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header img{
+    margin:0px;
+    margin-left:0px;
+    width:100px;
+    height:40px;
+}
+
+nav ul{
+    padding: 1px;
+}
+nav li{
+    display: inline;
+    text-align: center;
+    flex:1;
+}  
+ul li{
+    text-decoration: none;
+    color: #B9B8B6;
+    margin-left: 100px;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+ul li:hover {
+    transition: all 300ms;
+    border-bottom: 4px solid #8071D0;
+    color: black;
+
+}
+#account button{
+        margin-left:350px;
+        margin-right: 30px;
+        background-color: #FFD8DB;
+        color: #A389CC;
+        letter-spacing: -1px;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 20px 35px;
+        border-radius: 23px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+}
+/*Main section styling*/
+h1{
+    margin-top: 100;
+    padding:20px 60px;
+    font-size: 70px;
+    letter-spacing: -2px;
+    font-weight: 800;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.blue-dot{
+    font-size: 12px;
+    color: #5243C0;
+    margin-left: 3px;
+    margin-right: 200px;
+}
+.topleft-section{
+
+    padding: 0px;
+}
+h1{
+    margin-left:0px ;
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 800;
+    margin: 0;
+}
+.stunning-descrip{
+    padding: 5px;
+    margin-left:50px ;
+    color: #878382;
+    margin-bottom: 5px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.8;
+}
+#user-btn{
+        margin-top: 0px;
+        margin-left: 50PX;
+        background-color: #5243C0;
+        color: #ffffff;
+        letter-spacing: -1px;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 20px 35px;
+        border-radius: 23px;
+        border: none;
+        cursor: pointer;
+        transition: all 500ms;
+        outline: none;
+    }
+
+    #user-btn wrapper{ 
+    display: flex;
+    align-items: center;
+    }
+    .arrow{
+    margin-left: 20PX;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px lightgray;
+    cursor: pointer;
+    }
+    .arrow:hover{
+    transform: scale(0.8);
+}
+.article{
+    margin-left: 50PX;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgb(245, 243, 243);
+    box-shadow: 0 1px 2px rgb(184, 182, 182);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.bottom-section{
+    margin-top: 40px;
+}
+.article{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgb(245, 243, 243);
+    box-shadow: 0 1px 2px rgb(184, 182, 182);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.article:hover {
+        background-color: white;
+        box-shadow: 0 5px 30px rgb(184, 182, 182);
+ }
+.tick{
+    width: 30px;
+    margin-left: 10px;
+}
+.details{
+    width: 200px;
+    margin-left: 2px;
+    font-weight: 600;
+    color: #0D0C0B;
+    letter-spacing: -1px;
+}
+.user{
+    width:30px;
+}
+.date{
+    color:#b5b4b2;
+    padding: 0px 20px;
+    letter-spacing: -1px;
+}
+.colorbar1{
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #FED7DA;
+}
+.colorbar2{
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #FD6534;
+}
+.colorbar3{
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #9ED095;
+}
+.colorbar4{
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #FFE4A0;
+}
+.tick1{
+    position: relative;
+}
+.pink{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#article1:hover .pink{
+    display: block;
+}
+.tick2{
+    position: relative;
+}
+.orange{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#article2:hover .orange{
+    display: block;
+}
+.tick3{
+    position: relative;
+}
+.blue{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#article3:hover .blue{
+    display: block;
+}
+.tick4{
+    position: relative;
+}
+.red{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#article4:hover .red{
+    display: block;
+} 
+
+.right-image{
+    padding-top: 20px;
+    padding-left: 9%;
+    width: 38%;
+}
+.right-image img{
+    width: 100%;
+    transform: skewY(2deg);
+   
+}
+.right-image img:hover{
+    transform: skewY(-2deg);
+}
